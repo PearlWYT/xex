@@ -1,7 +1,38 @@
-// @import '~antd/dist/antd.css';
-.app{
-  background: #ddd;
-  .btn{
-    width: 100%;
+.logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  margin-right: 20%;
+}
+.header{
+  background: rgba(0, 0, 0, 0.4);
+  .menu{
+    background: rgba(0, 0, 0, 0);
+    height: 65px;
   }
+
+}
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+.content{
+  padding: 0 16px;
+  min-height: calc(100vh - 134px);
+}
+
+.site-layout-background {
+  background: #fff;
+}
+.ant-menu-item a{
+  color: #fff!important;
+  &:hover,&:focus{
+    color: #ccc!important;
+
+  }
+}
+.ant-menu-horizontal > .ant-menu-item-selected a {
+  color: #ccc!important;
+
 }
